@@ -17,15 +17,19 @@ import pandas as pd  #Used for Dataframe Creations
 #import webbrowser
 #import time
 
-PAGES = {
-    "Aftertreatment_Claim_Coding ": app1,
+
+
+st.write("Hello")
+
+#PAGES = {
+    #"Aftertreatment_Claim_Coding ": app1,
     #"CI_Claim_Coding": app2,
     #"ECN_Tracking": app3,
     #"D60": app4,
     
-} 
-st.sidebar.title('Navigation')
-selection = st.sidebar.radio("Go to", list(PAGES.keys()))
-page = PAGES[selection]
-page.app()
+#} 
+#st.sidebar.title('Navigation')
+#selection = st.sidebar.radio("Go to", list(PAGES.keys()))
+#page = PAGES[selection]
+#page.app()
 
