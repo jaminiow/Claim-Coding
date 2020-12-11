@@ -1,3 +1,4 @@
+ODBC version: HDBODBC 2.3.106 64 bit
 alabaster==0.7.12
 altair==4.1.0
 anaconda-client==1.7.2
