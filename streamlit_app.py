@@ -17,9 +17,9 @@ import time
 
 PAGES = {
     "Aftertreatment_Claim_Coding ": app1,
-    "CI_Claim_Coding": app2,
-    "ECN_Tracking": app3,
-    "D60": app4,
+    "CI_Claim_Coding":,
+    "ECN_Tracking":,
+    "D60":,
     
 } 
 st.sidebar.title('Navigation')
