@@ -2,7 +2,7 @@
 import streamlit as st
 st.set_page_config(layout="wide")
 
-#import app1
+import app1
 #import app2
 #import app3
 #import app4
