@@ -21,7 +21,7 @@ page.app()
 
 #######################################################################
 # HANA Conenctions
-conn = py.connect(Trusted_Connection='yes', DRIVER='{HDBODBC}',SERVERNODE='phnhdb.dx.deere.com:30015')
+conn = py.connect(Trusted_Connection='yes', DRIVER='{IBM DB2 ODBC DRIVER}',SERVERNODE='phnhdb.dx.deere.com:30015')
 
 #SQL Connections
 conn1 = py.connect('Driver={SQL Server};'
