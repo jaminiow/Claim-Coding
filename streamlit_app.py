@@ -25,5 +25,5 @@ server = 'phnhdb.dx.deere.com'
 database = 'phnhdb' 
 username = 'rg41159' 
 password = 'IHOPEIGETMYPHDIN13YEARS' 
-cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
+cnxn = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
 cursor = cnxn.cursor()
