@@ -14,4 +14,4 @@ page.app()
 
 
 # HANA Conenctions
-conn = py.connect(Trusted_Connection='yes', DRIVER='PHN',SERVERNODE='phnhdb.dx.deere.com:30015')
+conn = py.connect(Trusted_Connection='yes', DRIVER='phn',SERVERNODE='phnhdb.dx.deere.com:30015')
