@@ -12,18 +12,7 @@ selection = st.sidebar.radio("Go to", list(PAGES.keys()))
 page = PAGES[selection]
 page.app()
 
+import pandas as pd
 
-# HANA Conenctions
-#conn = py.connect(Trusted_Connection='yes', DRIVER='SQL Server',SERVERNODE='phnhdb.dx.deere.com:30015',User='rg41159',Password='IHOPEIGETMYPHDIN13YEARS')
-
-#cnxn = py.connect('DRIVER="CData ODBC Driver for SAP HANA";User=system;Password="IHOPEIGETMYPHDIN13YEARS";SERVERNODE="phnhdb.dx.deere.com:30015"')
-import pyodbc 
-# Some other example server values are
-# server = 'localhost\sqlexpress' # for a named instance
-server = 30015
-server = 'phnhdb.dx.deere.com' 
-database = 'phnhdb' 
-username = 'rg41159' 
-password = 'IHOPEIGETMYPHDIN13YEARS' 
-cnxn = pyodbc.connect('DRIVER=AFTERTREATMENT;SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
-cursor = cnxn.cursor()
+df = pd.read_csv (r'C:\Users\rg41159\Tableau\Python_Sample.csv')
+print (df)
