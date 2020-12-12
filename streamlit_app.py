@@ -16,5 +16,5 @@ page.app()
 #SQL Connections
 conn1 = py.connect('Driver32=C:\WINDOWS\system32\SQLSRV32.dll' 
                       'Server=FSDERGSQL1.SDE.DEERE.COM;'
-                      'Database=JDPS_941_SALES_DB;'
+                      'Database=AFTERTREATMENT;'
                       'Trusted_Connection=yes;')
