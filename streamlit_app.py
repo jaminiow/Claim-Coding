@@ -14,7 +14,7 @@ page.app()
 
 
 #SQL Connections
-conn2 = py.connect('DRIVER=DB2COPY1;'
+conn2 = py.connect('DRIVER={SQL Server};'
                       'Server=wdx2ua3031cmp\sqlexpress;'
                       'Database=JDPS_990_AFTERTREATMENT;'
                       'Trusted_Connection=yes;')
