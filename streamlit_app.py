@@ -22,7 +22,7 @@ import pyodbc
 # server = 'localhost\sqlexpress' # for a named instance
 server = 30015
 server = 'phnhdb.dx.deere.com' 
-#database = 'phnhdb' 
+database = 'phnhdb' 
 username = 'rg41159' 
 password = 'IHOPEIGETMYPHDIN13YEARS' 
 cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
