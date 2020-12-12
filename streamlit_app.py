@@ -14,4 +14,4 @@ page.app()
 
 
 # HANA Conenctions
-conn = py.connect(Trusted_Connection='yes', DRIVER='SQL Server',SERVERNODE='phnhdb.dx.deere.com:30015',User='rg41159',Password='IHOPEIGETMYPHDIN13YEARS')
+#conn = py.connect(Trusted_Connection='yes', DRIVER='SQL Server',SERVERNODE='phnhdb.dx.deere.com:30015',User='rg41159',Password='IHOPEIGETMYPHDIN13YEARS')
