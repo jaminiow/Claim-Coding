@@ -16,4 +16,4 @@ page.app()
 # HANA Conenctions
 #conn = py.connect(Trusted_Connection='yes', DRIVER='SQL Server',SERVERNODE='phnhdb.dx.deere.com:30015',User='rg41159',Password='IHOPEIGETMYPHDIN13YEARS')
 
-cnxn = pyodbc.connect('DRIVER={CData ODBC Driver for SAP HANA};User=system;Password='IHOPEIGETMYPHDIN13YEARS';SERVERNODE='phnhdb.dx.deere.com:30015')
+cnxn = pyodbc.connect('DRIVER={CData ODBC Driver for SAP HANA};User=system;Password="IHOPEIGETMYPHDIN13YEARS";SERVERNODE='phnhdb.dx.deere.com:30015')
