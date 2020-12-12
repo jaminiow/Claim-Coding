@@ -26,10 +26,18 @@ def app():
             DESIGNCONTROL LIKE '%D0%'
             AND
             LATEST_REV_IND = 'X'
-
-         
-
-
+            
             '''
             , conn)
         return HANA_PARTNUMBER_df
+    
+        if st.button('Show Summary'):
+        
+            with st.spinner('Wait for it...'):
+                ST.write(HANA_PARTNUMBER_df)
+
+
+
+            
+        st.balloons()
+        st.success('Done!')
