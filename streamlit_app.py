@@ -13,12 +13,6 @@ page = PAGES[selection]
 page.app()
 
 
-
-
-
-
-"Hello"
-
 #######################################################################
 # HANA Conenctions
 #conn = py.connect(Trusted_Connection='yes', phn='HDBODBC',SERVERNODE='phnhdb.dx.deere.com:30015')
