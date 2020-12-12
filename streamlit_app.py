@@ -14,5 +14,3 @@ page.app()
 
 import pandas as pd
 
-df = pd.read_csv (r'C:\Users\rg41159\Tableau\Python_Sample.csv')
-print (df)
