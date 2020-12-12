@@ -14,7 +14,7 @@ page.app()
 
 
 #SQL Connections
-conn1 = py.connect('Driver={SQL Server};'
+conn1 = py.connect('DRIVER={PostgreSQL Unicode});'
                       'Server=FSDERGSQL1.SDE.DEERE.COM;'
                       'Database=JDPS_941_SALES_DB;'
                       'Trusted_Connection=yes;')
