@@ -13,8 +13,5 @@ page = PAGES[selection]
 page.app()
 
 
-#SQL Connections
-conn2 = py.connect('DRIVER={SQL Server};'
-                      'Server=wdx2ua3031cmp\sqlexpress;'
-                      'Database=JDPS_990_AFTERTREATMENT;'
-                      'Trusted_Connection=yes;')
+# HANA Conenctions
+conn = py.connect(Trusted_Connection='yes', DRIVER='PHN',SERVERNODE='phnhdb.dx.deere.com:30015')
