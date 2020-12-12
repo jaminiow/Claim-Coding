@@ -13,6 +13,8 @@ page = PAGES[selection]
 page.app()
 
 
-#######################################################################
-# HANA Conenctions
-conn = py.connect(Trusted_Connection='yes', DRIVER='{HDBODBC}',SERVERNODE='phnhdb.dx.deere.com:30015')
+#SQL Connections
+conn1 = py.connect('Driver={SQL Server};'
+                      'Server=FSDERGSQL1.SDE.DEERE.COM;'
+                      'Database=JDPS_941_SALES_DB;'
+                      'Trusted_Connection=yes;')
