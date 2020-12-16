@@ -13,5 +13,10 @@ selection = st.sidebar.radio("Go to", list(PAGES.keys()))
 page = PAGES[selection]
 page.app()
 
+#SQL Connections
+conn1 = py.connect('Driver={SQL Server};'
+                      'Server=FSDERGSQL1.SDE.DEERE.COM;'
+                      'Database=JDPS_941_SALES_DB;'
+                      'Trusted_Connection=yes;')
 
 
