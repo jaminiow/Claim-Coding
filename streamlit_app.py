@@ -1,7 +1,8 @@
 #app.py
 import streamlit as st
 import app1
-#import pyodbc as py  #Used for Database Connections
+import pyodbc as py  #Used for Database Connections
+import pandas as pd
 st.set_page_config(layout="wide")
 
 PAGES = {
@@ -12,5 +13,5 @@ selection = st.sidebar.radio("Go to", list(PAGES.keys()))
 page = PAGES[selection]
 page.app()
 
-import pandas as pd
+
 
